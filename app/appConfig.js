@@ -4,7 +4,7 @@
 'use strict';
 
 function appConfig($urlRouterProvider, $locationProvider, $breadcrumbProvider) {
-    $locationProvider.html5Mode(false).hashPrefix('!');
+    $locationProvider.html5Mode(true);
 
     // For any unmatched url, redirect to /
     $urlRouterProvider.otherwise('/');
