@@ -13,3 +13,6 @@ require('bootstrap');
 require('domready');
 window._ = require('lodash');
 require('restangular');
+window.D3 = require('d3');
+window.C3 = require('c3');
+require('c3-angular');
